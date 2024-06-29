@@ -1,0 +1,14 @@
+.home{
+  .data-cards{
+    max-width: 2200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, auto));
+    gap: 20px;
+
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
